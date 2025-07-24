@@ -2,7 +2,7 @@ import React from 'react'
 
 function Herosection() {
   return (
-    <section className="bg-[#1a1a1a] text-white py-16 h-screen flex justify-center items-center relative overflow-hidden">
+    <section className="bg-[#1a1a1a] text-white md:py-16 pt-50 pb-32  md:h-screen flex justify-center items-end md:items-center relative overflow-hidden">
       {/* Optional faint background image or texture */}
       <div className="absolute inset-0 bg-[url('/images/texture-parachute.jpg')] bg-cover bg-center opacity-5 z-0" />
 
@@ -42,7 +42,7 @@ function Herosection() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-6 left-1/2 transform w-8 h-8 rounded-full  -translate-x-1/2 z-10 flex justify-center items-center">
+      <div className="hidden md:absolute bottom-6 left-1/2 transform w-8 h-8 rounded-full  -translate-x-1/2 z-10 flex justify-center items-center">
         <span className="animate-bounce text-yellow-400  text-3xl">↓</span>
       </div>
     </section>
