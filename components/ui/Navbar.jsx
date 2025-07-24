@@ -13,13 +13,15 @@ export default function Navbar() {
 <header className="absolute left-0 right-0 z-50 bg-[#1a1a1a] border-b-2 border-[#FDCE08] bg-deev shadow-md">
   <div className="max-w-screen-xl mx-auto flex px-4 pt-10 pb-6 relative items-center justify-between">
     <div className="absolute  top-full left-1/2 -translate-x-1/2 md:-translate-x-0 md:left-4  -translate-y-1/2 w-28 h-28 md:w-32 md:h-32 z-10">
+      <Link href="/">
       <Image
         src="/logos/logo.png"
         alt="Emblem"
         fill
         className="object-contain rounded-full border-2 border-[#FDCE08] shadow-xl bg-black"
         priority
-      />
+        />
+        </Link>
     </div>
     <div className="w-32 sm:w-36" />
 
